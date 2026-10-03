@@ -6,7 +6,7 @@ public class Calculadora {
     public static void main(String[] args) {
         try (Scanner entrada = new Scanner(System.in)) {
             List<String> historial = new ArrayList<String>();
-            String titulo = "=== Calculadora ===";
+            String titulo = "=== Calculadora de Julian ===";
             
             while (true) {
                 System.out.println("\n" + titulo);
